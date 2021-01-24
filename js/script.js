@@ -1,0 +1,112 @@
+
+$(document).ready(function(){
+
+     $(".year-button2017").on("click",function(){
+     	   $(".infographic2017").css("display","block")
+     	   $(".infographic2018").css("display","none")
+     	   $(".infographic2019").css("display","none")
+         $(".active").not($(this).addClass('active')).removeClass('active');
+
+     })
+     
+     $(".year-button2018").on("click",function(){
+     	   $(".infographic2018").css("display","block")
+     	   $(".infographic2017").css("display","none")
+     	   $(".infographic2019").css("display","none")
+         $(".active").not($(this).addClass('active')).removeClass('active');
+     })
+     
+     $(".year-button2019").on("click",function(){
+     	   $(".infographic2019").css("display","block")
+     	   $(".infographic2017").css("display","none")
+     	   $(".infographic2018").css("display","none")
+         $(".active").not($(this).addClass('active')).removeClass('active');
+     })
+    
+     $(".month-194").on("click",function(){
+           $(".daly_range_2019_4").css("display","block")
+           $(".daly_range_2019_5").css("display","none")
+           $(".daly_range_2019_9").css("display","none")
+           $(".daly_range_2019_10").css("display","none")
+           $(".active_2").not($(this).addClass('active_2')).removeClass('active_2');
+     })
+     $(".month-195").on("click",function(){
+           $(".daly_range_2019_4").css("display","none")
+           $(".daly_range_2019_5").css("display","block")
+           $(".daly_range_2019_9").css("display","none")
+           $(".daly_range_2019_10").css("display","none")
+           $(".active_2").not($(this).addClass('active_2')).removeClass('active_2');
+     })
+     $(".month-199").on("click",function(){
+           $(".daly_range_2019_4").css("display","none")
+           $(".daly_range_2019_5").css("display","none")
+           $(".daly_range_2019_9").css("display","block")
+           $(".daly_range_2019_10").css("display","none")
+           $(".active_2").not($(this).addClass('active_2')).removeClass('active_2');
+     })
+     $(".month-1910").on("click",function(){
+           $(".daly_range_2019_4").css("display","none")
+           $(".daly_range_2019_5").css("display","none")
+           $(".daly_range_2019_9").css("display","none")
+           $(".daly_range_2019_10").css("display","block")
+           $(".active_2").not($(this).addClass('active_2')).removeClass('active_2');
+     })
+
+     $(".month-174").on("click",function(){
+           $(".daly_range_2017_4").css("display","block")
+           $(".daly_range_2017_5").css("display","none")
+           $(".daly_range_2017_9").css("display","none")
+           $(".daly_range_2017_10").css("display","none")
+           $(".active_2").not($(this).addClass('active_2')).removeClass('active_2');
+     })
+     $(".month-175").on("click",function(){
+           $(".daly_range_2017_4").css("display","none")
+           $(".daly_range_2017_5").css("display","block")
+           $(".daly_range_2017_9").css("display","none")
+           $(".daly_range_2017_10").css("display","none")
+           $(".active_2").not($(this).addClass('active_2')).removeClass('active_2');
+     })
+     $(".month-179").on("click",function(){
+           $(".daly_range_2017_4").css("display","none")
+           $(".daly_range_2017_5").css("display","none")
+           $(".daly_range_2017_9").css("display","block")
+           $(".daly_range_2017_10").css("display","none")
+           $(".active_2").not($(this).addClass('active_2')).removeClass('active_2');
+     })
+     $(".month-1710").on("click",function(){
+           $(".daly_range_2017_4").css("display","none")
+           $(".daly_range_2017_5").css("display","none")
+           $(".daly_range_2017_9").css("display","none")
+           $(".daly_range_2017_10").css("display","block")
+           $(".active_2").not($(this).addClass('active_2')).removeClass('active_2');
+     })
+
+     $(".month-184").on("click",function(){
+           $(".daly_range_2018_4").css("display","block")
+           $(".daly_range_2018_5").css("display","none")
+           $(".daly_range_2018_9").css("display","none")
+           $(".daly_range_2018_10").css("display","none")
+           $(".active_2").not($(this).addClass('active_2')).removeClass('active_2');
+     })
+     $(".month-185").on("click",function(){
+           $(".daly_range_2018_4").css("display","none")
+           $(".daly_range_2018_5").css("display","block")
+           $(".daly_range_2018_9").css("display","none")
+           $(".daly_range_2018_10").css("display","none")
+           $(".active_2").not($(this).addClass('active_2')).removeClass('active_2');
+     })
+     $(".month-189").on("click",function(){
+           $(".daly_range_2018_4").css("display","none")
+           $(".daly_range_2018_5").css("display","none")
+           $(".daly_range_2018_9").css("display","block")
+           $(".daly_range_2018_10").css("display","none")
+           $(".active_2").not($(this).addClass('active_2')).removeClass('active_2');
+     })
+     $(".month-1810").on("click",function(){
+           $(".daly_range_2018_4").css("display","none")
+           $(".daly_range_2018_5").css("display","none")
+           $(".daly_range_2018_9").css("display","none")
+           $(".daly_range_2018_10").css("display","block")
+           $(".active_2").not($(this).addClass('active_2')).removeClass('active_2');
+     })
+});

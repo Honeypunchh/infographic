@@ -1,0 +1,558 @@
+.title {
+	width:1935px;
+	height: 100%;
+	background-image:url('../img/re cover img.png');
+	background-size:cover;
+	position: relative;
+}
+
+
+.title_wrap {
+   width: 800px;
+   margin: 50px 0 0 570px; 
+   padding-top:100px;
+}
+.button_wrap{
+  width: 800px;
+  margin-left: 00px;
+}
+
+.section_wrap{
+   width: 800px;;
+   margin-left: 00px;
+  
+
+ }
+
+ .section_wrap2 {
+   width: 800px;
+   margin-left: 00px;
+   
+ }
+
+ .section_wrap3 {
+   width: 800px;
+   margin-left: 00px;
+   
+ }
+ .section_wrap4 {
+   width: 800px;
+   margin-left: 00px;
+   
+ }
+
+
+
+.infographic2019 {
+	 width: 800px;
+   margin: 25px auto;
+   display: none;
+}
+
+
+.infographic2017 {
+	 width: 800px;
+   margin: 25px auto;
+    display:none;
+}
+
+
+.infographic2018 {
+	 width: 800px;
+   margin: 25px auto;
+   display:none;
+    
+}
+
+
+.chart-text {
+   font-size: 22px;
+   font-family: 에스코어 드림4 Regular;
+   letter-spacing: -0.5px;
+   color: #333333;
+   padding-top: 40px;
+   line-height: 150%;
+
+}
+
+
+.year-button2017 {
+	width: 170px;
+	height: 55px;
+	font-family: 여기어때 잘난체 OTF;
+	font-size: 27px;
+	text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 75px;
+    margin-right: 20px;
+    border:3px solid #333333;
+    cursor: pointer;
+}
+
+.year-button2018 {
+	width: 170px;
+	height: 55px;
+	font-family: 여기어때 잘난체 OTF;
+	font-size: 27px;
+	text-align: center;
+    margin: 30px 40px;
+    border:3px solid #333333;
+    cursor: pointer;
+}
+
+.year-button2019 {
+	width: 170px;
+	height: 55px;
+	font-family: 여기어때 잘난체 OTF;
+	font-size: 27px;
+	text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 75px;
+    border:3px solid #333333;
+    cursor: pointer;
+
+}
+
+.active{
+  background-color: #333333;
+  color:#f2f2f2;
+}
+
+.active_2{
+  background-color: #333333;
+  color:#f2f2f2;
+}
+
+.nonactive {
+    width: 170px;
+  height: 55px;
+  font-family: 여기어때 잘난체 OTF;
+  font-size: 27px;
+  text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-right: 75px;
+    border:3px solid #333333;
+    cursor: pointer;
+}
+.clothes {
+background-image:url('../img/clothes table.png');
+width:811px;
+height: 419px;
+margin-top: 132px;
+margin-bottom: 70px;
+margin-left: 00px;
+
+
+}
+.warning    {
+text-align: center; 
+font-size : 17px; 
+letter-spacing: -1px; 
+padding-top:-10px; 
+color: #4d4d4d;" 
+<font-family:"에스코어 드림3 light">
+}
+
+.yearmenu   {
+text-align: center; 
+font-size : 30px; 
+letter-spacing: -1px; 
+padding-top: 100px;
+color: #333333;
+<font-family:"에스코어 드림4 regular">
+
+
+}
+
+
+.calender-img2017 {
+   width: 804px;
+   height: 840px;
+   padding-top: 20px;
+
+}
+
+.calender-img2018 {
+   width: 804px;
+   height: 840px;
+   padding-top: 20px;
+}
+
+.calender-img2019 {
+   width: 804px;
+   height: 840px;
+   padding-top: 20px;
+
+   }
+
+
+.chart-img {
+    width: 804px;
+    height: 555px;
+}
+
+
+.chart-text {
+   font-size: 22px;
+   font-family: 에스코어 드림4 Regular;
+   letter-spacing: -0.5px;
+   color: #333333;
+   padding-top: 40px;
+   line-height: 150%;
+
+}
+
+
+.daily_range_option {
+ text-align: center; 
+ font-size : 40px; 
+ letter-spacing: -1px; 
+ padding-top: 140px;
+ color: #333333; 
+ font-family: 여기어때 잘난체 OTF;
+
+}
+
+.month_button_wrap {
+  width: 800px;
+  padding-top : 00px;
+}
+.daly_range_2019_4 { 
+  width: 800px;
+   margin: 0px auto;
+   display: none;
+
+}
+.daly_range_2019_5 { 
+  width: 800px;
+   margin: 0px auto;
+   display: none;
+
+}
+
+.daly_range_2019_9 { 
+  width: 800px;
+   margin: 0px auto;
+   display: none;
+
+}
+
+.daly_range_2019_10 { 
+  width: 800px;
+   margin: 0px auto;
+   display: none;
+
+}
+.daly_range_2017_4 { 
+  width: 800px;
+   margin: 0px auto;
+   display: none;
+
+}
+.daly_range_2017_5 { 
+  width: 800px;
+   margin: 0px auto;
+   display: none;
+
+}
+
+.daly_range_2017_9 { 
+  width: 800px;
+   margin: 0px auto;
+   display: none;
+
+}
+
+.daly_range_2017_10 { 
+  width: 800px;
+   margin: 0px auto;
+   display: none;
+
+}
+
+.daly_range_2018_4 { 
+  width: 800px;
+   margin: 0px auto;
+   display: none;
+
+}
+.daly_range_2018_5 { 
+  width: 800px;
+   margin: 0px auto;
+   display: none;
+
+}
+
+.daly_range_2018_9 { 
+  width: 800px;
+   margin: 0px auto;
+   display: none;
+
+}
+
+.daly_range_2018_10 { 
+  width: 800px;
+   margin: 0px auto;
+   display: none;
+
+}
+
+.month-194  {
+  width: 170px;
+  height: 50px;
+  font-family: 여기어때 잘난체 OTF;
+  font-size: 27px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 10px;
+  border:3px solid #333333;
+  border-radius: 00px;
+  cursor: pointer;
+
+}
+
+
+.month-195  {
+  width: 170px;
+  height: 50px;
+  font-family: 여기어때 잘난체 OTF;
+  font-size: 27px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  border:3px solid #333333;
+  border-radius: 00px;
+  cursor: pointer;
+}
+
+
+.month-199  {
+  width: 170px;
+  height: 50px;
+  font-family: 여기어때 잘난체 OTF;
+  font-size: 27px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  border:3px solid #333333;
+  border-radius: 00px;
+  cursor: pointer;
+}
+
+
+.month-1910  {
+  width: 170px;
+  height: 50px;
+  font-family: 여기어때 잘난체 OTF;
+  font-size: 27px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  border:3px solid #333333;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.month-174  {
+  width: 170px;
+  height: 50px;
+  font-family: 여기어때 잘난체 OTF;
+  font-size: 27px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 10px;
+  border:3px solid #333333;
+  border-radius: 00px;
+  cursor: pointer;
+
+}
+
+
+.month-175  {
+  width: 170px;
+  height: 50px;
+  font-family: 여기어때 잘난체 OTF;
+  font-size: 27px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  border:3px solid #333333;
+  border-radius: 00px;
+  cursor: pointer;
+}
+
+
+.month-179  {
+  width: 170px;
+  height: 50px;
+  font-family: 여기어때 잘난체 OTF;
+  font-size: 27px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  border:3px solid #333333;
+  border-radius: 00px;
+  cursor: pointer;
+}
+
+
+.month-1710  {
+  width: 170px;
+  height: 50px;
+  font-family: 여기어때 잘난체 OTF;
+  font-size: 27px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  border:3px solid #333333;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.month-184  {
+  width: 170px;
+  height: 50px;
+  font-family: 여기어때 잘난체 OTF;
+  font-size: 27px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 10px;
+  border:3px solid #333333;
+  border-radius: 00px;
+  cursor: pointer;
+
+}
+
+
+.month-185  {
+  width: 170px;
+  height: 50px;
+  font-family: 여기어때 잘난체 OTF;
+  font-size: 27px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  border:3px solid #333333;
+  border-radius: 00px;
+  cursor: pointer;
+}
+
+
+.month-189  {
+  width: 170px;
+  height: 50px;
+  font-family: 여기어때 잘난체 OTF;
+  font-size: 27px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  border:3px solid #333333;
+  border-radius: 00px;
+  cursor: pointer;
+}
+
+
+.month-1810  {
+  width: 170px;
+  height: 50px;
+  font-family: 여기어때 잘난체 OTF;
+  font-size: 27px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  border:3px solid #333333;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.daily_button_wrap {
+  width: 800px;
+}
+
+.daily_range_chart-img {
+  width:800px;
+}
+
+.range_chart-text {
+ font-size: 20px;
+ font-family: 에스코어 드림4 Regular;
+ color: #333333;
+ padding-top: 30px;
+ line-height: 150%;
+ text-align: left;
+
+}
+
+.final  {
+  padding-top: 258px;
+  font-family: 에스코어 드림4 Regular;
+  color: #333333;
+  font-size: 12px;
+  text-align: center;
+  
+
+
+}
+
+
+.select_month_data{
+  text-align: center;
+  font-family: 여기어때 잘난체 OTF;
+  font-size: 28px;
+  margin-top: 55px;
+  margin-left:-20px;
+}
+
+
+
+}
+.data_warning {
+  font-size: 21px;
+ font-family: 에스코어 드림4  Regular;
+ color: #333333;
+ padding-top: 30px;
+ line-height: 150%;
+ text-align: left;
+}
+
+.data_incorrect {
+  font-size: 15px;
+ font-family: 에스코어 드림4 Regular;
+ color: #333333;
+ padding-top: 267px;
+ line-height: 150%;
+ text-align: center;
+ margin-top:58px;
+ padding-bottom: 12px;
+}
+
+.data_incorrect_1718 {
+  font-size: 15px;
+ font-family: 에스코어 드림4 Regular;
+ color: #333333;
+ padding-top: 267px;
+ line-height: 150%;
+ text-align: center;
+ margin-top:24px;
+ padding-bottom: 12px;
+}

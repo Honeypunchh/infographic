@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Google Material Design Lite 로딩 -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+
+
+	
+	<!-- JQuery 로딩 -->
+	<script
+	  src="https://code.jquery.com/jquery-3.4.1.js"
+	  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+	  crossorigin="anonymous"></script>
+
+	  <!-- D3.js 로딩 -->
+
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+
+
+	<!-- Highchart.js 로딩 -->
+	<script src="https://code.highcharts.com/highcharts.js"></script>
+	<script src="https://code.highcharts.com/modules/series-label.js"></script>
+	<script src="https://code.highcharts.com/modules/exporting.js"></script>
+	<script src="https://code.highcharts.com/modules/export-data.js"></script>
+	<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+
+
+	<!-- css폴더 안의 style.css를 로딩 -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- js폴더 안의 script.css를 로딩 -->
+	<script src="js/script.js"></script>
+
+</head>
+<body>
+ <div class="title">
+   
+    <div class="title_wrap"> 
+    	      <div class="subjectname">
+    	   	    <h2 style="text-align: center; font-size :95px; padding-top: 650px; padding-bottom: 20px; font-family:여기어때 잘난체 OTF;">  기온별 옷차림 </h2>
+    	   		    <p style=" text-align: center; font-size : 37px; letter-spacing: -1px; padding-bottom: 30px; font-family:여기어때 잘난체 OTF;"> 으로 보는 서울 연간 평균 기온 데이터 
+                
+                    <p style=" text-align: center; font-size : 21px; letter-spacing: -1px; 
+                color: #4d4d4d; font-family: 에스코어 드림4 regular; margin-bottom: 10px">
+                	  1년 동안의 여러 계절에 맞춰 바뀌는 우리의 옷차림 
+
+                    <p style=" text-align: center; font-size : 21px; letter-spacing: -1px; 
+                color: #4d4d4d;font-family: 에스코어 드림4 regular; margin-bottom: 10px"> 
+                	  그런데 우리는 반팔과 패딩 중 어떤 걸 가장 많이 입었을까요?
+
+                    <p style=" text-align: center; font-size : 21px; letter-spacing: -1px; 
+                color: #4d4d4d; font-family: 에스코어 드림4 regular; margin-bottom: 10px"> 
+                	  지난 연도 기온 데이터와 기온 별 옷차림 표를 활용해 만들어봤습니다.</p> 
+              </div>
+        
+         <div class="clothes"> 
+
+
+    
+         </div>
+                  <div style= " text-align: center; font-size : 17px; letter-spacing: -1px; padding-top:-10px; color: #4d4d4d; font-family: 에스코어 드림3 light; text-align: center"> ※대표적인 사계절 봄,여름,가을,겨울처럼 많은 옷 중 해당 기온에 대표적인 옷차림을 기준으로 만들어졌습니다. 
+                  </div>
+
+ 
+                                    <div style=" text-align: center; font-size : 30px; letter-spacing: -1px; padding-top: 140px; color: #333333; font-family: 에스코어 드림4 regular;"> 연도를 선택하세요 </p> 
+                                     </div>
+
+        <div class=button_wrap>
+          <button class="year-button2017"> 2017년 </button>
+
+          <button class="year-button2018"> 2018년 </button>
+
+          <button class="year-button2019"> 2019년 </button>
+
+        </div>
+              <div class="section_wrap">
+
+               <div class="infographic2019">
+    
+               <div class="calnder-img2019">
+     
+                  <img src="img/2019 calender heat map.png" class= "calender-img2019">
+                  <img src="img/2019 year-chart.png" class= "chart-img" style= "padding-top: 165px;" >
+                    <div class= "chart-text"> 3년간의 평균은 순서대로 129일, 68일, 99일, 69일로  2019년은 평균 보다 패딩, 코트를, 셔츠를 입을만한 날이 1일 적고 반팔을 입을만한 날이 3일 많았습니다.
+        	          <div class= "daily_range_option"> 2019년의 일교차는?
+                         <div class= "range_chart-text"> 일교차는 하루의 최고 기온과 최저 기온이 크게 차이 나는 것을 뜻합니다. 최저 기온은 일반적으로 우리가 잠든 새벽시간부터 아침까지 이어지며 최고 기온은 3~4시 경에 나타납니다. 4계절이 존재하는 우리나라에선 보통 계절이 바뀌는 환절기에 일교차가 크게 일어나며 이 때로는 4,5,9,10월이 해당합니다. 일교차 데이터는 옷차림표를 기준으로 2단계의 차이가 발생하는 경우를 모았습니다.
+                            <div class=select_month_data> 월별 일교차 데이터 살펴보기
+                            </div>
+                         </div> 	
+                      </div>  
+                             <div class=month_button_wrap>
+        		                 <button class="month-194"> 4월 </button>
+        		                 <button class="month-195"> 5월 </button>
+        		                 <button class="month-199"> 9월 </button>
+        		                 <button class="month-1910"> 10월 </button>
+                            </div>
+                                  <div class="section_wrap">
+                                     <div class="daly_range_2019_4">
+                                        <div class="graph4">
+
+                                            <img src="img/2019graph4.png" class= "daily_range_chart-img" style= "padding-top: 30px;" > 
+                                                 <div class="data_incorrect"> ※강수량, 바람의 영향 등으로 인한 체감 온도 차이가 있을 수 있습니다.   
+                            	                   
+                                                 </div>
+                                        </div>
+                                     </div>     
+                                  </div>
+                                    <div class="section_wrap2">
+                                       <div class="daly_range_2019_5">
+                                          <div class="graph5">
+
+                                              <img src="img/2019graph5.png" class= "daily_range_chart-img" style= "padding-top: 30px;" > 
+                                                   <div class="data_incorrect"> ※강수량, 바람의 영향 등으로 인한 체감 온도 차이가 있을 수 있습니다.   
+                            	                      
+                                                  </div>
+                                          </div>
+                                      </div>     
+                                    </div>
+                                            <div class="section_wrap3">
+                                                <div class="daly_range_2019_9">
+                                                   <div class="graph9">
+
+                                                       <img src="img/2019graph9.png" class= "daily_range_chart-img" style= "padding-top: 30px;" > 
+                                                           <div class="data_incorrect"> ※강수량, 바람의 영향 등으로 인한 체감 온도 차이가 있을 수 있습니다.   
+                            	                            
+                                                           </div>
+                                                    </div>
+                                                </div>     
+                                            </div>
+                                              <div class="section_wrap4">
+                                                 <div class="daly_range_2019_10">
+                                                    <div class="graph10">
+
+                                                           <img src="img/2019graph10.png" class= "daily_range_chart-img" style= "padding-top: 30px;" > 
+                                                 <div class="data_incorrect"> ※강수량, 바람의 영향 등으로 인한 체감 온도 차이가 있을 수 있습니다.   
+                            	                    
+                                                 </div>
+                                        </div>
+                                    </div>     
+                                  </div>
+                
+                </div>
+                </div>
+                           
+             </div>
+
+      
+
+
+
+             <div class="section_wrap2">
+  
+               <div class="infographic2017">
+
+               <div class="calnder-img2017">
+    
+                   <img src="img/2017 calender heat map.png" class= "calender-img2017">
+                   <img src="img/2017 year-chart.png" class= "chart-img" style= "padding-top: 165px;" >
+                          <div class= "chart-text"> 3년간의 평균은 순서대로 129일, 68일, 99일, 69일로  2017년은 패딩을 입을만한 날이 2일 적고 코트를 입을만한 날이 12일 많고 셔츠,반팔를 입을만한 날이 5일 적었습니다.
+                          	<div class= "daily_range_option"> 2017년의 일교차는?
+                         <div class= "range_chart-text"> 일교차는 하루의 최고 기온과 최저 기온이 크게 차이 나는 것을 뜻합니다. 최저 기온은 일반적으로 우리가 잠든 새벽시간부터 아침까지 이어지며 최고 기온은 3~4시 경에 나타납니다. 4계절이 존재하는 우리나라에선 보통 계절이 바뀌는 환절기에 일교차가 크게 일어나며 이 때로는 4,5,9,10월이 해당합니다. 일교차 데이터는 옷차림표를 기준으로 2단계의 차이가 발생하는 경우를 모았습니다.
+                            <div class=select_month_data> 월별 일교차 데이터 살펴보기
+                            </div>
+                         </div> 	
+                      </div>  
+                             <div class=month_button_wrap>
+        		                 <button class="month-174"> 4월 </button>
+        		                 <button class="month-175"> 5월 </button>
+        		                 <button class="month-179"> 9월 </button>
+        		                 <button class="month-1710"> 10월 </button>
+                            </div>
+                                  <div class="section_wrap">
+                                     <div class="daly_range_2017_4">
+                                        <div class="graph4">
+
+                                            <img src="img/2017graph4.png" class= "daily_range_chart-img" style= "padding-top: 30px;" > 
+                                                 <div class="data_incorrect_1718"> ※강수량, 바람의 영향 등으로 인한 체감 온도 차이가 있을 수 있습니다.   
+                            	                    
+                                                 </div>
+                                        </div>
+                                     </div>     
+                                  </div>
+                                    <div class="section_wrap2">
+                                       <div class="daly_range_2017_5">
+                                          <div class="graph5">
+
+                                              <img src="img/2017graph5.png" class= "daily_range_chart-img" style= "padding-top: 30px;" > 
+                                                   <div class="data_incorrect_1718"> ※강수량, 바람의 영향 등으로 인한 체감 온도 차이가 있을 수 있습니다.   
+                            	                      
+                                                  </div>
+                                          </div>
+                                      </div>     
+                                    </div>
+                                            <div class="section_wrap3">
+                                                <div class="daly_range_2017_9">
+                                                   <div class="graph9">
+
+                                                       <img src="img/2017graph9.png" class= "daily_range_chart-img" style= "padding-top: 30px;" > 
+                                                           <div class="data_incorrect_1718"> ※강수량, 바람의 영향 등으로 인한 체감 온도 차이가 있을 수 있습니다.   
+                            	                            
+                                                           </div>
+                                                    </div>
+                                                </div>     
+                                            </div>
+                                              <div class="section_wrap4">
+                                                 <div class="daly_range_2017_10">
+                                                    <div class="graph10">
+
+                                                           <img src="img/2017graph10.png" class= "daily_range_chart-img" style= "padding-top: 30px;" > 
+                                                 <div class="data_incorrect_1718"> ※강수량, 바람의 영향 등으로 인한 체감 온도 차이가 있을 수 있습니다.   
+                            	                    
+                                                 </div>
+                                        </div>
+                                    </div>     
+                                  </div>
+                          </div>
+                   </div>
+                   </div>
+             </div>
+
+
+             <div class="section_wrap3">
+                <div class="infographic2018">
+
+                <div class="calnder-img2018">
+  
+                    <img src="img/2018 calender heat map.png" class= "calender-img2018">
+                    <img src="img/2018 year-chart.png" class= "chart-img" style= "padding-top: 165px;" >
+                            <div class= "chart-text"> 3년간의 평균은 순서대로 129일, 68일, 99일, 69일로  2018년은 평균 보다 패딩을 입을만한 날이 3일 많고 코트를 입을만한 날이 11일 적고, 셔츠, 반팔을 입을만한 날이 각각 6일, 2일 많았습니다.
+                            	<div class= "daily_range_option"> 2018년의 일교차는?
+                         <div class= "range_chart-text"> 일교차는 하루의 최고 기온과 최저 기온이 크게 차이 나는 것을 뜻합니다. 최저 기온은 일반적으로 우리가 잠든 새벽시간부터 아침까지 이어지며 최고 기온은 3~4시 경에 나타납니다. 4계절이 존재하는 우리나라에선 보통 계절이 바뀌는 환절기에 일교차가 크게 일어나며 이 때로는 4,5,9,10월이 해당합니다. 일교차 데이터는 옷차림표를 기준으로 2단계의 차이가 발생하는 경우를 모았습니다.
+                            	<div class=select_month_data> 월별 일교차 데이터 살펴보기
+                            </div>
+                         </div> 	
+                      </div>  
+                             <div class=month_button_wrap>
+        		                 <button class="month-184"> 4월 </button>
+        		                 <button class="month-185"> 5월 </button>
+        		                 <button class="month-189"> 9월 </button>
+        		                 <button class="month-1810"> 10월 </button>
+                            </div>
+                                  <div class="section_wrap">
+                                     <div class="daly_range_2018_4">
+                                        <div class="graph4">
+
+                                            <img src="img/2018graph4.png" class= "daily_range_chart-img" style= "padding-top: 30px;" > 
+                                                 <div class="data_incorrect_1718"> ※강수량, 바람의 영향 등으로 인한 체감 온도 차이가 있을 수 있습니다.   
+                            	                    
+                                                 </div>
+                                        </div>
+                                     </div>     
+                                  </div>
+                                    <div class="section_wrap2">
+                                       <div class="daly_range_2018_5">
+                                          <div class="graph5">
+
+                                              <img src="img/2018graph5.png" class= "daily_range_chart-img" style= "padding-top: 30px;" > 
+                                                   <div class="data_incorrect_1718"> ※강수량, 바람의 영향 등으로 인한 체감 온도 차이가 있을 수 있습니다.   
+                            	                      
+                                                  </div>
+                                          </div>
+                                      </div>     
+                                    </div>
+                                            <div class="section_wrap3">
+                                                <div class="daly_range_2018_9">
+                                                   <div class="graph9">
+
+                                                       <img src="img/2018graph9.png" class= "daily_range_chart-img" style= "padding-top: 30px;" > 
+                                                           <div class="data_incorrect_1718"> ※강수량, 바람의 영향 등으로 인한 체감 온도 차이가 있을 수 있습니다.   
+                            	                            
+                                                           </div>
+                                                    </div>
+                                                </div>     
+                                            </div>
+                                              <div class="section_wrap4">
+                                                 <div class="daly_range_2018_10">
+                                                    <div class="graph10">
+
+                                                           <img src="img/2018graph10.png" class= "daily_range_chart-img" style= "padding-top: 30px;" > 
+                                                 <div class="data_incorrect_1718"> ※강수량, 바람의 영향 등으로 인한 체감 온도 차이가 있을 수 있습니다.   
+                            	                    
+                                                 </div>
+                                        </div>
+                                    </div>     
+                                  </div>
+                            </div>
+                    </div>
+                    </div>
+      
+    
+    </div>
+</div>
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
